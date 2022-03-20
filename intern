@@ -1,0 +1,6 @@
+# Enter commands in R (or R studio, if installed)
+# Install the remotes package
+install.packages('remotes')
+remotes::install_github(repo = 'satijalab/seurat', ref = 'develop')
+library(Seurat)
+
